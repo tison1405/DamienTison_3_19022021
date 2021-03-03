@@ -1,0 +1,19 @@
+{
+  "name": "damientison_3_19022021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:.css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tison1405/DamienTison_3_19022021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tison1405/DamienTison_3_19022021/issues"
+  },
+  "homepage": "https://github.com/tison1405/DamienTison_3_19022021#readme"
+}

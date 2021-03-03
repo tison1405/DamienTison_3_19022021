@@ -1,17 +1,1 @@
-.titre{
-    border: 1px solid black;
-    &__button{
-        &--text{
-            color: red;
-            border: 1px solid black;
-        }
-    }
-}
-#resto1{
-    border: 1px solid black;
-}
-.loc{
-    &__text{
-        color: brown;
-    }
-}
+@import "./base/typographie";

@@ -1,5 +1,9 @@
+.titre {
+  border: 1px solid black;
+}
 .titre__button--text {
   color: red;
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=style.css.map */

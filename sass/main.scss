@@ -1,7 +1,9 @@
 .titre{
+    border: 1px solid black;
     &__button{
         &--text{
             color: red;
+            border: 1px solid black;
         }
     }
 }

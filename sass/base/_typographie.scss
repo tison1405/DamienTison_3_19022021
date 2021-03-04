@@ -1,19 +1,29 @@
 @font-face{
     font-family: "Roboto";
-    src: url(../../font/Roboto-Regular.ttf);
+    src: url(../font/roboto/Roboto-Regular.ttf);
     font-display: swap;
 }
 @font-face{
     font-family: "Roboto-bold";
-    src: url(../../font/Roboto-Bold.ttf);
+    src: url(../font/roboto/Roboto-Bold.ttf);
     font-display: swap;
 }
 @font-face{
-    font-family: "shrikland";
-    src: url(../../font/Shrikhand-Regular.ttf);
+    font-family: "shrikhand";
+    src: url(../font/shrikhand/Shrikhand-Regular.ttf);
     font-display: swap;
 }
 h1{
-        font-family: "shrikland", sans-serif ;
-        font-size: 1.5rem;
+    font-family: 'shrikhand';
+}
+.info__logo{
+    font-family: 'Shrikhand';
+}
+#home{
+    h2{
+        font-family: 'Roboto-bold';
+    }
+    h3{
+        font-family: 'Roboto-bold';
+    }
 }

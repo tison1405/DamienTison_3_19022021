@@ -1,55 +1,18 @@
-@font-face {
-  font-family: "Roboto";
-  src: url(../../font/Roboto-Regular.ttf);
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto-bold";
-  src: url(../../font/Roboto-Bold.ttf);
-  font-display: swap;
-}
-@font-face {
-  font-family: "shrikhand";
-  src: url(../../font/Shrikhand-Regular.ttf);
-  font-display: swap;
-}
-h1 {
-  font-family: "shrikhand", sans-serif;
-}
+/* Error: Expected expression.
+ *   ,
+ * 2 |     background-color: ;
+ *   |                       ^
+ *   '
+ *   sass\layout\_loc.scss 2:23  @import
+ *   sass\main.scss 3:9          root stylesheet */
 
-#home .header__titre {
-  margin: 0;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected expression.\a   \2577 \a 2 \2502      background-color: ;\d\a   \2502                        ^\a   \2575 \a   sass\\layout\\_loc.scss 2:23  @import\a   sass\\main.scss 3:9          root stylesheet";
 }
-#home .header__titre--img {
-  width: 100%;
-  object-fit: cover;
-}
-
-#resto .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-#resto .header__titre {
-  margin: 0;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-#resto .header__titre--img {
-  width: 100%;
-  object-fit: cover;
-}
-#resto .header__icon {
-  position: absolute;
-  left: 4%;
-  top: 2%;
-  font-size: 18px;
-  text-decoration: none;
-  color: black;
-}
-
-/*# sourceMappingURL=style.css.map */

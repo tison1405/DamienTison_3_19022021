@@ -4,14 +4,10 @@
             margin: 0;
             width: 50%;
             margin-left: auto;
-            margin-right: auto;
-            &--img{
-                width: 100%;
-                object-fit: cover;    
+            margin-right: auto;   
             }
         }
     }
-}
 #resto{
     .header{
         display: flex;
@@ -22,10 +18,6 @@
             width: 50%;
             margin-left: auto;
             margin-right: auto;
-            &--img{
-                width: 100%;
-                object-fit: cover;    
-            }
         }
         &__icon{
             position: absolute;

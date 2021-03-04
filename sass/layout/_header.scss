@@ -1,0 +1,39 @@
+#home{
+    .header{
+        &__titre{
+            margin: 0;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            &--img{
+                width: 100%;
+                object-fit: cover;    
+            }
+        }
+    }
+}
+#resto{
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &__titre{
+            margin: 0;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            &--img{
+                width: 100%;
+                object-fit: cover;    
+            }
+        }
+        &__icon{
+            position: absolute;
+            left: 4%;
+            top: 2%;
+            font-size: 18px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

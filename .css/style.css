@@ -1,17 +1,55 @@
-.titre {
-  border: 1px solid black;
+@font-face {
+  font-family: "Roboto";
+  src: url(../../font/Roboto-Regular.ttf);
+  font-display: swap;
 }
-.titre__button--text {
-  color: red;
-  border: 1px solid black;
+@font-face {
+  font-family: "Roboto-bold";
+  src: url(../../font/Roboto-Bold.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "shrikhand";
+  src: url(../../font/Shrikhand-Regular.ttf);
+  font-display: swap;
+}
+h1 {
+  font-family: "shrikhand", sans-serif;
 }
 
-#resto1 {
-  border: 1px solid black;
+#home .header__titre {
+  margin: 0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home .header__titre--img {
+  width: 100%;
+  object-fit: cover;
 }
 
-.loc__text {
-  color: brown;
+#resto .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#resto .header__titre {
+  margin: 0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#resto .header__titre--img {
+  width: 100%;
+  object-fit: cover;
+}
+#resto .header__icon {
+  position: absolute;
+  left: 4%;
+  top: 2%;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

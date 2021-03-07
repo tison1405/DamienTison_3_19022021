@@ -1,17 +1,9 @@
-.titre{
-    border: 1px solid black;
-    &__button{
-        &--text{
-            color: red;
-            border: 1px solid black;
-        }
-    }
-}
-#resto1{
-    border: 1px solid black;
-}
-.loc{
-    &__text{
-        color: brown;
-    }
-}
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./base/typographie";
+@import "./layout/header";
+@import "./layout/loc";
+@import "./layout/ex";
+@import "./layout/fonctionnement";
+
+

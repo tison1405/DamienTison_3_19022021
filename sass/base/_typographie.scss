@@ -9,6 +9,11 @@
     font-display: swap;
 }
 @font-face{
+    font-family: "Roboto-black";
+    src: url(../font/roboto/Roboto-Black.ttf);
+    font-display: swap;
+}
+@font-face{
     font-family: "shrikhand";
     src: url(../font/shrikhand/Shrikhand-Regular.ttf);
     font-display: swap;
@@ -21,9 +26,9 @@ h1{
 }
 #home{
     h2{
-        font-family: 'Roboto-bold';
+        font-family: 'Roboto-black';
     }
     h3{
-        font-family: 'Roboto-bold';
+        font-family: 'Roboto-black';
     }
 }

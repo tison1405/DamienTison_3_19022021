@@ -1,3 +1,13 @@
 .loc{
-    background-color: ;
+    background-color:  $color-quatrième;
+    border-top: 2px solid $color-cinquieme;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 13px 0 13px 0;
+    &__text{
+        margin: 0;
+        padding-left: 13px;
+        font-family: "Roboto";
+    }
 }

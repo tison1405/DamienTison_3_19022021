@@ -1,0 +1,28 @@
+.fonc{
+    &__titre{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    &__liste{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__element{
+        text-decoration: none;
+        padding: 1.3rem;
+        border: 1px solid black;
+        width: 78%;
+        margin-bottom: 15px;
+        border-radius: 23px;
+        &--chiffre{
+            padding: 1px 6px;
+            border-radius: 50px;
+            margin-left: -29px;
+            background-color: $color-primaire;
+            color: white;
+            font-family: 'Roboto';
+        }
+
+    }
+}

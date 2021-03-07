@@ -9,3 +9,12 @@
     background: linear-gradient(173deg, $color-secondaire, $color-primaire);
     box-shadow: 2px 2px 7px gray;
 }
+@mixin imgresto {
+    height: 151px;
+    background-repeat: no-repeat;
+    background-position: 4px -50px;
+    width: 85%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -55,9 +55,9 @@ h1 {
 }
 #resto .header__icon {
   position: absolute;
-  left: 4%;
-  top: 2%;
-  font-size: 18px;
+  left: 5%;
+  top: 2.8%;
+  font-size: 20px;
   text-decoration: none;
   color: black;
 }
@@ -258,6 +258,37 @@ h1 {
 }
 .info__element--text1 {
   padding-left: 7px;
+}
+
+.titre1 {
+  background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+  height: 270px;
+  background-position: -25px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.titre1__button {
+  display: flex;
+  flex-direction: row;
+  padding: 26px 0 0 0;
+  background-color: #f6f6f6;
+  border-radius: 38px 38px 0 0;
+  margin-bottom: -15px;
+}
+.titre1__button--text {
+  margin: 0;
+  font-family: "Shrikhand";
+  font-size: 26px;
+  padding-left: 15px;
+}
+.titre1__button--icon {
+  font-size: 25px;
+  color: gray;
+  align-self: center;
+  padding-left: 108px;
 }
 
 /*# sourceMappingURL=style.css.map */

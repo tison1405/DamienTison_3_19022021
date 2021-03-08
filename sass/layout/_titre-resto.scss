@@ -1,0 +1,24 @@
+.titre1{
+    @include imgtitre (url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg));
+    &__button{
+        display: flex;
+        flex-direction: row;
+        padding: 26px 0 0 0;
+        background-color: $color-sixieme;
+        border-radius: 38px 38px 0 0;
+        margin-bottom: -15px;
+        &--text{
+            margin: 0;
+            font-family: 'Shrikhand';
+            font-size: 26px;
+            padding-left: 15px;
+        }
+        &--icon{
+            font-size: 25px;
+            color: gray;
+            align-self: center;
+            padding-left: 108px;
+        }
+    } 
+} 
+         

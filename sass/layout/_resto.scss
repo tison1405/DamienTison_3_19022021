@@ -1,9 +1,21 @@
 .resto{
+    background-color: $color-sixieme;
+    padding-bottom: 45px;
+    h3{
+        padding: 38px 0 0 26px;
+    }
     .resto-selecteur{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-decoration: none;
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 2px 2px 7px grey;
         &__img1{
             background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
             @include imgresto;
@@ -21,17 +33,29 @@
         }
         &__img2{
             background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
-            height: 151px;
-            background-repeat: no-repeat;
-            background-position: 4px -133px;
-            width: 85%;
-            background-size: cover;
-            display: flex;
-            justify-content: flex-end;   
+            @include imgresto (0px -133px)   
         }
         &__img3{
             background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
             @include imgresto;
+        }
+        &__name{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 93%;
+            &--icones{
+                align-self: center;
+                font-size: 20px;
+                color: gray;
+            }
+            &--text{
+                font-family: 'Roboto';
+                color: gray;
+                strong{
+                    color: black;
+                }
+            }
         }
     }
 }

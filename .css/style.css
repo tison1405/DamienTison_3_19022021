@@ -256,8 +256,10 @@ strong {
 .info__element {
   text-decoration: none;
   color: white;
-  padding: 0 0 8px 20px;
+  padding: 0 0 10px 20px;
   font-family: "Roboto";
+  display: block;
+  width: 56%;
 }
 .info__element--icon {
   padding-right: 5px;

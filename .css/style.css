@@ -271,7 +271,7 @@ strong {
 .titre1 {
   background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
   height: 270px;
-  background-position: -25px 0;
+  background-position: -25px 0px;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -297,6 +297,99 @@ strong {
   color: gray;
   align-self: center;
   padding-left: 108px;
+}
+
+.titre2 {
+  background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+  height: 270px;
+  background-position: -25px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.titre2__button {
+  display: flex;
+  flex-direction: row;
+  padding: 26px 0 0 0;
+  background-color: #f6f6f6;
+  border-radius: 38px 38px 0 0;
+  margin-bottom: -15px;
+}
+.titre2__button--text {
+  margin: 0;
+  font-family: "Shrikhand";
+  font-size: 23px;
+  padding-left: 15px;
+}
+.titre2__button--icon {
+  font-size: 25px;
+  color: gray;
+  align-self: center;
+  padding-left: 89px;
+}
+
+.titre3 {
+  background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  height: 270px;
+  background-position: -25px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.titre3__button {
+  display: flex;
+  flex-direction: row;
+  padding: 26px 0 0 0;
+  background-color: #f6f6f6;
+  border-radius: 38px 38px 0 0;
+  margin-bottom: -15px;
+}
+.titre3__button--text {
+  margin: 0;
+  font-family: "Shrikhand";
+  font-size: 25px;
+  padding-left: 17px;
+}
+.titre3__button--icon {
+  font-size: 25px;
+  color: gray;
+  align-self: center;
+  padding-left: 62px;
+}
+
+.titre4 {
+  background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+  height: 270px;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.titre4__button {
+  display: flex;
+  flex-direction: row;
+  padding: 26px 0 0 0;
+  background-color: #f6f6f6;
+  border-radius: 38px 38px 0 0;
+  margin-bottom: -15px;
+}
+.titre4__button--text {
+  margin: 0;
+  font-family: "Shrikhand";
+  font-size: 25px;
+  padding-left: 15px;
+}
+.titre4__button--icon {
+  font-size: 25px;
+  color: gray;
+  align-self: center;
+  padding-left: 43px;
 }
 
 .menu {

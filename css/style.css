@@ -59,6 +59,11 @@ strong {
   font-size: 24px;
   padding-bottom: 6px;
 }
+@media screen and (min-width: 1023px) {
+  #resto .header__titre {
+    font-size: 49px;
+  }
+}
 #resto .header__icon {
   position: absolute;
   left: 5%;
@@ -66,6 +71,12 @@ strong {
   font-size: 20px;
   text-decoration: none;
   color: black;
+}
+@media screen and (min-width: 1023px) {
+  #resto .header__icon {
+    top: 3%;
+    font-size: 26px;
+  }
 }
 
 .loc {
@@ -110,6 +121,20 @@ strong {
   background: linear-gradient(173deg, #FF79DA, #9356DC);
   box-shadow: 2px 2px 7px gray;
   margin-bottom: 45px;
+}
+@media screen and (min-width: 1023px) {
+  .ex__link {
+    padding: 1.8rem;
+    width: 195px;
+    border-radius: 42px;
+    font-size: 24px;
+    margin-bottom: 45px;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .ex__link {
+    width: 245px;
+  }
 }
 
 @media screen and (min-width: 1023px) {
@@ -380,6 +405,14 @@ strong {
   flex-direction: column;
   justify-content: flex-end;
 }
+@media screen and (min-width: 1023px) {
+  .titre1 {
+    height: 369px;
+    flex-direction: row-reverse;
+    justify-content: unset;
+    background-position: 0px -375px;
+  }
+}
 .titre1__button {
   display: flex;
   flex-direction: row;
@@ -388,11 +421,26 @@ strong {
   border-radius: 38px 38px 0 0;
   margin-bottom: -15px;
 }
+@media screen and (min-width: 1023px) {
+  .titre1__button {
+    padding: unset;
+    margin-bottom: unset;
+    width: 37%;
+    margin-top: 222px;
+  }
+}
 .titre1__button--text {
   margin: 0;
   font-family: "Shrikhand";
   font-size: 26px;
   padding-left: 15px;
+}
+@media screen and (min-width: 1023px) {
+  .titre1__button--text {
+    font-size: 37px;
+    align-self: center;
+    padding-left: 25px;
+  }
 }
 .titre1__button--icon {
   font-size: 25px;
@@ -411,6 +459,14 @@ strong {
   flex-direction: column;
   justify-content: flex-end;
 }
+@media screen and (min-width: 1023px) {
+  .titre2 {
+    height: 369px;
+    flex-direction: row-reverse;
+    justify-content: unset;
+    background-position: 0px -375px;
+  }
+}
 .titre2__button {
   display: flex;
   flex-direction: row;
@@ -419,17 +475,32 @@ strong {
   border-radius: 38px 38px 0 0;
   margin-bottom: -15px;
 }
+@media screen and (min-width: 1023px) {
+  .titre2__button {
+    padding: unset;
+    margin-bottom: unset;
+    width: 37%;
+    margin-top: 222px;
+  }
+}
 .titre2__button--text {
   margin: 0;
   font-family: "Shrikhand";
-  font-size: 23px;
+  font-size: 26px;
   padding-left: 15px;
+}
+@media screen and (min-width: 1023px) {
+  .titre2__button--text {
+    font-size: 37px;
+    align-self: center;
+    padding-left: 25px;
+  }
 }
 .titre2__button--icon {
   font-size: 25px;
   color: gray;
   align-self: center;
-  padding-left: 89px;
+  padding-left: 108px;
 }
 
 .titre3 {
@@ -442,6 +513,14 @@ strong {
   flex-direction: column;
   justify-content: flex-end;
 }
+@media screen and (min-width: 1023px) {
+  .titre3 {
+    height: 369px;
+    flex-direction: row-reverse;
+    justify-content: unset;
+    background-position: 0px -375px;
+  }
+}
 .titre3__button {
   display: flex;
   flex-direction: row;
@@ -450,17 +529,32 @@ strong {
   border-radius: 38px 38px 0 0;
   margin-bottom: -15px;
 }
+@media screen and (min-width: 1023px) {
+  .titre3__button {
+    padding: unset;
+    margin-bottom: unset;
+    width: 37%;
+    margin-top: 222px;
+  }
+}
 .titre3__button--text {
   margin: 0;
   font-family: "Shrikhand";
-  font-size: 25px;
-  padding-left: 17px;
+  font-size: 26px;
+  padding-left: 15px;
+}
+@media screen and (min-width: 1023px) {
+  .titre3__button--text {
+    font-size: 37px;
+    align-self: center;
+    padding-left: 25px;
+  }
 }
 .titre3__button--icon {
   font-size: 25px;
   color: gray;
   align-self: center;
-  padding-left: 62px;
+  padding-left: 108px;
 }
 
 .titre4 {
@@ -473,6 +567,14 @@ strong {
   flex-direction: column;
   justify-content: flex-end;
 }
+@media screen and (min-width: 1023px) {
+  .titre4 {
+    height: 369px;
+    flex-direction: row-reverse;
+    justify-content: unset;
+    background-position: 0px -764px;
+  }
+}
 .titre4__button {
   display: flex;
   flex-direction: row;
@@ -481,28 +583,55 @@ strong {
   border-radius: 38px 38px 0 0;
   margin-bottom: -15px;
 }
+@media screen and (min-width: 1023px) {
+  .titre4__button {
+    padding: unset;
+    margin-bottom: unset;
+    width: 38%;
+    margin-top: 222px;
+  }
+}
 .titre4__button--text {
   margin: 0;
   font-family: "Shrikhand";
-  font-size: 25px;
+  font-size: 26px;
   padding-left: 15px;
+}
+@media screen and (min-width: 1023px) {
+  .titre4__button--text {
+    font-size: 37px;
+    align-self: center;
+    padding-left: 25px;
+  }
 }
 .titre4__button--icon {
   font-size: 25px;
   color: gray;
   align-self: center;
-  padding-left: 43px;
+  padding-left: 108px;
 }
 
 .menu {
   background-color: #f6f6f6;
   padding-top: 29px;
 }
+@media screen and (min-width: 1023px) {
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .menu__elements {
   display: flex;
   flex-direction: column;
   align-content: space-around;
   padding-left: 5%;
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements {
+    padding-left: 3%;
+    width: 30%;
+  }
 }
 .menu__elements--titre {
   color: gray;
@@ -511,6 +640,12 @@ strong {
   width: 12%;
   padding-bottom: 4px;
   border-bottom: 3px solid #99E2D0;
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--titre {
+    font-size: 26px;
+    width: 56px;
+  }
 }
 .menu__elements--plats {
   display: flex;
@@ -523,10 +658,22 @@ strong {
   border-radius: 10px;
   box-shadow: 2px 2px 7px grey;
 }
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats {
+    width: 100%;
+    height: 68px;
+  }
+}
 .menu__elements--plats span {
   align-self: flex-end;
   font-family: "Roboto-Black";
   font-size: 14px;
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats span {
+    align-self: center;
+    font-size: 20px;
+  }
 }
 .menu__elements--plats p {
   margin: 0;
@@ -534,10 +681,20 @@ strong {
   color: gray;
   font-size: 14px;
 }
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats p {
+    font-size: 18px;
+  }
+}
 .menu__elements--plats p strong {
   font-family: "Roboto-black";
   color: black;
   font-size: 17px;
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats p strong {
+    font-size: 23px;
+  }
 }
 .menu__commander {
   display: flex;
@@ -545,6 +702,31 @@ strong {
   justify-content: center;
   padding-bottom: 20px;
   padding-top: 15px;
+}
+@media screen and (min-width: 1023px) {
+  .menu__commander {
+    width: 100%;
+  }
+}
+.menu__commander--link1 {
+  text-decoration: none;
+  display: block;
+  padding: 0.8rem;
+  color: white;
+  width: 165px;
+  border-radius: 28px;
+  text-align: center;
+  background: linear-gradient(173deg, #FF79DA, #9356DC);
+  box-shadow: 2px 2px 7px gray;
+}
+@media screen and (min-width: 1023px) {
+  .menu__commander--link1 {
+    padding: 1.8rem;
+    width: 195px;
+    border-radius: 42px;
+    font-size: 24px;
+    margin-bottom: 45px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

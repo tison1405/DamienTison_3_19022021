@@ -17,5 +17,8 @@
     &__link{
         @include btn;
         margin-bottom: 45px;
+        @include desktop{
+            width: 245px;
+        }
     }
 }

@@ -1,5 +1,11 @@
 .titre1{
     @include imgtitre (url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg));
+    @include desktop{
+        height: 369px;
+        flex-direction: row-reverse;
+        justify-content: unset;
+        background-position: 0px -375px;
+    }
     &__button{
         display: flex;
         flex-direction: row;
@@ -7,11 +13,22 @@
         background-color: $color-sixieme;
         border-radius: 38px 38px 0 0;
         margin-bottom: -15px;
+        @include desktop{
+            padding: unset;
+            margin-bottom: unset;
+            width: 37%;
+            margin-top: 222px;
+        }
         &--text{
             margin: 0;
             font-family: 'Shrikhand';
             font-size: 26px;
             padding-left: 15px;
+            @include desktop{
+                font-size: 37px;
+                align-self: center;
+                padding-left: 25px;
+            }
         }
         &--icon{
             font-size: 25px;
@@ -23,6 +40,12 @@
 } 
 .titre2{
     @include imgtitre (url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg));
+    @include desktop{
+        height: 369px;
+        flex-direction: row-reverse;
+        justify-content: unset;
+        background-position: 0px -375px;
+    }
     &__button{
         display: flex;
         flex-direction: row;
@@ -30,22 +53,39 @@
         background-color: $color-sixieme;
         border-radius: 38px 38px 0 0;
         margin-bottom: -15px;
+        @include desktop{
+            padding: unset;
+            margin-bottom: unset;
+            width: 37%;
+            margin-top: 222px;
+        }
         &--text{
             margin: 0;
             font-family: 'Shrikhand';
-            font-size: 23px;
+            font-size: 26px;
             padding-left: 15px;
+            @include desktop{
+                font-size: 37px;
+                align-self: center;
+                padding-left: 25px;
+            }
         }
         &--icon{
             font-size: 25px;
             color: gray;
             align-self: center;
-            padding-left: 89px;
+            padding-left: 108px;
         }
     } 
-}
+} 
 .titre3{
     @include imgtitre (url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg));
+    @include desktop{
+        height: 369px;
+        flex-direction: row-reverse;
+        justify-content: unset;
+        background-position: 0px -375px;
+    }
     &__button{
         display: flex;
         flex-direction: row;
@@ -53,22 +93,39 @@
         background-color: $color-sixieme;
         border-radius: 38px 38px 0 0;
         margin-bottom: -15px;
+        @include desktop{
+            padding: unset;
+            margin-bottom: unset;
+            width: 37%;
+            margin-top: 222px;
+        }
         &--text{
             margin: 0;
             font-family: 'Shrikhand';
-            font-size: 25px;
-            padding-left: 17px;
+            font-size: 26px;
+            padding-left: 15px;
+            @include desktop{
+                font-size: 37px;
+                align-self: center;
+                padding-left: 25px;
+            }
         }
         &--icon{
             font-size: 25px;
             color: gray;
             align-self: center;
-            padding-left: 62px;
+            padding-left: 108px;
         }
     } 
-}
+} 
 .titre4{
     @include imgtitre (url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg),0px);
+    @include desktop{
+        height: 369px;
+        flex-direction: row-reverse;
+        justify-content: unset;
+        background-position: 0px -764px;
+    }
     &__button{
         display: flex;
         flex-direction: row;
@@ -76,17 +133,28 @@
         background-color: $color-sixieme;
         border-radius: 38px 38px 0 0;
         margin-bottom: -15px;
+        @include desktop{
+            padding: unset;
+            margin-bottom: unset;
+            width: 38%;
+            margin-top: 222px;
+        }
         &--text{
             margin: 0;
             font-family: 'Shrikhand';
-            font-size: 25px;
+            font-size: 26px;
             padding-left: 15px;
+            @include desktop{
+                font-size: 37px;
+                align-self: center;
+                padding-left: 25px;
+            }
         }
         &--icon{
             font-size: 25px;
             color: gray;
             align-self: center;
-            padding-left: 43px;
+            padding-left: 108px;
         }
     } 
-}      
+} 

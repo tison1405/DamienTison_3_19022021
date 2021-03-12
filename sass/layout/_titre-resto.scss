@@ -34,7 +34,11 @@
             font-size: 25px;
             color: gray;
             align-self: center;
-            padding-left: 108px;
+            padding-left: 97px;
+            .fa-heart{
+                @include coeur-anim;
+                cursor: pointer;
+            }
         }
     } 
 } 
@@ -74,7 +78,11 @@
             font-size: 25px;
             color: gray;
             align-self: center;
-            padding-left: 108px;
+            padding-left: 42px;
+            .fa-heart{
+                @include coeur-anim;
+                cursor: pointer;
+            }
         }
     } 
 } 
@@ -114,7 +122,11 @@
             font-size: 25px;
             color: gray;
             align-self: center;
-            padding-left: 108px;
+            padding-left: 42px;
+            .fa-heart{
+                @include coeur-anim;
+                cursor: pointer;
+            }
         }
     } 
 } 
@@ -154,7 +166,11 @@
             font-size: 25px;
             color: gray;
             align-self: center;
-            padding-left: 108px;
+            padding-left: 42px;
+            .fa-heart{
+                @include coeur-anim;
+                cursor: pointer;
+            }
         }
     } 
 } 

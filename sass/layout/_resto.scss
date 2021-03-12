@@ -71,8 +71,13 @@
                 align-self: center;
                 font-size: 20px;
                 color: gray;
+                
                 @include desktop{
                     font-size: 27px;
+                }
+        
+                .fa-heart{
+                    @include coeur-anim;
                 }
             }
             &--text{

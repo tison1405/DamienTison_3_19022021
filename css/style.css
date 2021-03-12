@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Roboto";
   src: url(../font/roboto/Roboto-Regular.ttf);
@@ -345,6 +346,20 @@ strong {
     font-size: 27px;
   }
 }
+.resto .resto-selecteur__name--icones .fa-heart::before {
+  content: "";
+  color: gray;
+  position: absolute;
+}
+.resto .resto-selecteur__name--icones .fa-heart::after {
+  content: "";
+  color: white;
+  font-weight: bold;
+  transition: color 800ms ease-out;
+}
+.resto .resto-selecteur__name--icones .fa-heart:hover::after {
+  color: #9356DC;
+}
 .resto .resto-selecteur__name--text {
   font-family: "Roboto";
   color: gray;
@@ -446,7 +461,24 @@ strong {
   font-size: 25px;
   color: gray;
   align-self: center;
-  padding-left: 108px;
+  padding-left: 97px;
+}
+.titre1__button--icon .fa-heart {
+  cursor: pointer;
+}
+.titre1__button--icon .fa-heart::before {
+  content: "";
+  color: gray;
+  position: absolute;
+}
+.titre1__button--icon .fa-heart::after {
+  content: "";
+  color: white;
+  font-weight: bold;
+  transition: color 800ms ease-out;
+}
+.titre1__button--icon .fa-heart:hover::after {
+  color: #9356DC;
 }
 
 .titre2 {
@@ -500,7 +532,24 @@ strong {
   font-size: 25px;
   color: gray;
   align-self: center;
-  padding-left: 108px;
+  padding-left: 42px;
+}
+.titre2__button--icon .fa-heart {
+  cursor: pointer;
+}
+.titre2__button--icon .fa-heart::before {
+  content: "";
+  color: gray;
+  position: absolute;
+}
+.titre2__button--icon .fa-heart::after {
+  content: "";
+  color: white;
+  font-weight: bold;
+  transition: color 800ms ease-out;
+}
+.titre2__button--icon .fa-heart:hover::after {
+  color: #9356DC;
 }
 
 .titre3 {
@@ -554,7 +603,24 @@ strong {
   font-size: 25px;
   color: gray;
   align-self: center;
-  padding-left: 108px;
+  padding-left: 42px;
+}
+.titre3__button--icon .fa-heart {
+  cursor: pointer;
+}
+.titre3__button--icon .fa-heart::before {
+  content: "";
+  color: gray;
+  position: absolute;
+}
+.titre3__button--icon .fa-heart::after {
+  content: "";
+  color: white;
+  font-weight: bold;
+  transition: color 800ms ease-out;
+}
+.titre3__button--icon .fa-heart:hover::after {
+  color: #9356DC;
 }
 
 .titre4 {
@@ -608,7 +674,24 @@ strong {
   font-size: 25px;
   color: gray;
   align-self: center;
-  padding-left: 108px;
+  padding-left: 42px;
+}
+.titre4__button--icon .fa-heart {
+  cursor: pointer;
+}
+.titre4__button--icon .fa-heart::before {
+  content: "";
+  color: gray;
+  position: absolute;
+}
+.titre4__button--icon .fa-heart::after {
+  content: "";
+  color: white;
+  font-weight: bold;
+  transition: color 800ms ease-out;
+}
+.titre4__button--icon .fa-heart:hover::after {
+  color: #9356DC;
 }
 
 .menu {

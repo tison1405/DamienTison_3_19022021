@@ -40,6 +40,24 @@
     flex-direction: column;
     justify-content: flex-end;
 }
+@mixin coeur-anim {
+    &::before{
+        content: "\f004";
+        color: gray;
+        position: absolute;
+    }
+    &::after{
+        content: "\f004";
+        color: white;
+        font-weight: bold;
+        transition: color 800ms ease-out;
+    }
+    &:hover{
+        &::after{
+            color: $color-primaire;
+        }   
+    }   
+}
 @mixin desktop {
     @media screen and (min-width: 1023px){
         @content;

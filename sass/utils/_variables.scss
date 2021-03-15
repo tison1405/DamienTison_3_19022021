@@ -4,6 +4,8 @@ $color-tertiaire: #99E2D0;
 $color-quatrième: rgb(234, 234, 234);
 $color-cinquieme: rgb(207, 207, 207);
 $color-sixieme: rgb(246, 246, 246);
+$color-btn:linear-gradient(173deg, $color-secondaire, $color-primaire);
+$color-btn-lighten:linear-gradient(173deg, lighten($color-secondaire, 5), lighten($color-primaire, 5));
 $breakpoints: (
     desktop: 1023px
 );

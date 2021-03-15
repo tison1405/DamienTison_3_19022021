@@ -6,8 +6,13 @@
     width: 165px;
     border-radius: 28px;
     text-align: center;
-    background: linear-gradient(173deg, $color-secondaire, $color-primaire);
+    background: $color-btn;
     box-shadow: 2px 2px 7px gray;
+    transition: all 600ms;
+    &:hover{
+        background: $color-btn-lighten;
+        box-shadow: 7px 7px 7px gray;
+    }
     @include desktop{
         padding: 1.8rem;
         width: 195px;

@@ -121,7 +121,12 @@ strong {
   text-align: center;
   background: linear-gradient(173deg, #FF79DA, #9356DC);
   box-shadow: 2px 2px 7px gray;
+  transition: all 600ms;
   margin-bottom: 45px;
+}
+.ex__link:hover {
+  background: linear-gradient(173deg, #ff93e1, #a16be0);
+  box-shadow: 7px 7px 7px gray;
 }
 @media screen and (min-width: 1023px) {
   .ex__link {
@@ -801,6 +806,11 @@ strong {
   text-align: center;
   background: linear-gradient(173deg, #FF79DA, #9356DC);
   box-shadow: 2px 2px 7px gray;
+  transition: all 600ms;
+}
+.menu__commander--link1:hover {
+  background: linear-gradient(173deg, #ff93e1, #a16be0);
+  box-shadow: 7px 7px 7px gray;
 }
 @media screen and (min-width: 1023px) {
   .menu__commander--link1 {

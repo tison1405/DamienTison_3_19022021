@@ -756,6 +756,7 @@ strong {
   background-color: white;
   border-radius: 10px;
   box-shadow: 2px 2px 7px grey;
+  overflow: hidden;
   transform: translateY(150%);
   opacity: 0;
   animation: menu 1500ms 200ms both ease-in-out;
@@ -776,6 +777,17 @@ strong {
     align-self: center;
     font-size: 20px;
   }
+}
+.menu__elements--plats1::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  align-self: center;
+  font-size: 23px;
+  color: white;
+  transform: translateX(207%) rotate(45deg);
+  position: absolute;
+  left: 87%;
 }
 .menu__elements--plats1 p {
   margin: 0;
@@ -808,6 +820,7 @@ strong {
   background-color: white;
   border-radius: 10px;
   box-shadow: 2px 2px 7px grey;
+  overflow: hidden;
   transform: translateY(150%);
   opacity: 0;
   animation: menu 1500ms 1000ms both ease-in-out;
@@ -828,6 +841,17 @@ strong {
     align-self: center;
     font-size: 20px;
   }
+}
+.menu__elements--plats2::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  align-self: center;
+  font-size: 23px;
+  color: white;
+  transform: translateX(207%) rotate(45deg);
+  position: absolute;
+  left: 87%;
 }
 .menu__elements--plats2 p {
   margin: 0;
@@ -860,6 +884,7 @@ strong {
   background-color: white;
   border-radius: 10px;
   box-shadow: 2px 2px 7px grey;
+  overflow: hidden;
   transform: translateY(150%);
   opacity: 0;
   animation: menu 1500ms 1700ms both ease-in-out;
@@ -880,6 +905,17 @@ strong {
     align-self: center;
     font-size: 20px;
   }
+}
+.menu__elements--plats3::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  align-self: center;
+  font-size: 23px;
+  color: white;
+  transform: translateX(207%) rotate(45deg);
+  position: absolute;
+  left: 87%;
 }
 .menu__elements--plats3 p {
   margin: 0;

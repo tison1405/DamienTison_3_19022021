@@ -768,25 +768,31 @@ strong {
   }
 }
 .menu__elements--plats1 span {
-  align-self: flex-end;
   font-family: "Roboto-Black";
   font-size: 14px;
   display: block;
-  position: absolute;
-  transform: translateX(176%);
+  transform: translateX(80%);
   background-color: white;
-  padding: 24px 10px 0px 10px;
+  padding: 21px 0px 0px 0px;
+  transition: transform 600ms ease-in-out;
+  margin-left: 10px;
+  position: absolute;
+  right: 3%;
 }
 @media screen and (min-width: 1023px) {
   .menu__elements--plats1 span {
     align-self: center;
     font-size: 20px;
+    transform: translateX(370px);
+    padding-top: 30px;
+    top: inherit;
+    right: inherit;
   }
 }
 .menu__elements--plats1 span::after {
   content: "";
   background-color: #99E2D0;
-  padding: 32px 63px 10px 19px;
+  padding: 50px 35px 20px 27px;
   margin-left: 20px;
 }
 .menu__elements--plats1::after {
@@ -796,19 +802,33 @@ strong {
   align-self: center;
   font-size: 23px;
   color: white;
-  transform: translateX(207%) rotate(45deg);
+  transform: translateX(207%) rotate(90deg);
   position: absolute;
   left: 87%;
+  transition: transform 600ms ease-in-out;
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats1::after {
+    left: 90%;
+  }
 }
 .menu__elements--plats1 p {
   margin: 0;
   font-family: "Roboto";
   color: gray;
   font-size: 14px;
+  width: 270px;
+  height: 38px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: width 600ms ease-in-out;
 }
 @media screen and (min-width: 1023px) {
   .menu__elements--plats1 p {
     font-size: 18px;
+    height: 47px;
+    width: 350px;
   }
 }
 .menu__elements--plats1 p strong {
@@ -819,6 +839,25 @@ strong {
 @media screen and (min-width: 1023px) {
   .menu__elements--plats1 p strong {
     font-size: 23px;
+  }
+}
+.menu__elements--plats1:hover::after {
+  transform: translateX(0%) rotate(360deg);
+}
+.menu__elements--plats1:hover span {
+  transform: translateX(11%);
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats1:hover span {
+    transform: translateX(306px);
+  }
+}
+.menu__elements--plats1:hover P {
+  width: 200px;
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats1:hover P {
+    width: 300px;
   }
 }
 .menu__elements--plats2 {
@@ -843,25 +882,31 @@ strong {
   }
 }
 .menu__elements--plats2 span {
-  align-self: flex-end;
   font-family: "Roboto-Black";
   font-size: 14px;
   display: block;
-  position: absolute;
-  transform: translateX(176%);
+  transform: translateX(80%);
   background-color: white;
-  padding: 24px 10px 0px 10px;
+  padding: 21px 0px 0px 0px;
+  transition: transform 600ms ease-in-out;
+  margin-left: 10px;
+  position: absolute;
+  right: 3%;
 }
 @media screen and (min-width: 1023px) {
   .menu__elements--plats2 span {
     align-self: center;
     font-size: 20px;
+    transform: translateX(370px);
+    padding-top: 30px;
+    top: inherit;
+    right: inherit;
   }
 }
 .menu__elements--plats2 span::after {
   content: "";
   background-color: #99E2D0;
-  padding: 32px 63px 10px 19px;
+  padding: 50px 35px 20px 27px;
   margin-left: 20px;
 }
 .menu__elements--plats2::after {
@@ -871,19 +916,33 @@ strong {
   align-self: center;
   font-size: 23px;
   color: white;
-  transform: translateX(207%) rotate(45deg);
+  transform: translateX(207%) rotate(90deg);
   position: absolute;
   left: 87%;
+  transition: transform 600ms ease-in-out;
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats2::after {
+    left: 90%;
+  }
 }
 .menu__elements--plats2 p {
   margin: 0;
   font-family: "Roboto";
   color: gray;
   font-size: 14px;
+  width: 270px;
+  height: 38px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: width 600ms ease-in-out;
 }
 @media screen and (min-width: 1023px) {
   .menu__elements--plats2 p {
     font-size: 18px;
+    height: 47px;
+    width: 350px;
   }
 }
 .menu__elements--plats2 p strong {
@@ -894,6 +953,25 @@ strong {
 @media screen and (min-width: 1023px) {
   .menu__elements--plats2 p strong {
     font-size: 23px;
+  }
+}
+.menu__elements--plats2:hover::after {
+  transform: translateX(0%) rotate(360deg);
+}
+.menu__elements--plats2:hover span {
+  transform: translateX(11%);
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats2:hover span {
+    transform: translateX(306px);
+  }
+}
+.menu__elements--plats2:hover P {
+  width: 200px;
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats2:hover P {
+    width: 300px;
   }
 }
 .menu__elements--plats3 {
@@ -918,25 +996,31 @@ strong {
   }
 }
 .menu__elements--plats3 span {
-  align-self: flex-end;
   font-family: "Roboto-Black";
   font-size: 14px;
   display: block;
-  position: absolute;
-  transform: translateX(176%);
+  transform: translateX(80%);
   background-color: white;
-  padding: 24px 10px 0px 10px;
+  padding: 21px 0px 0px 0px;
+  transition: transform 600ms ease-in-out;
+  margin-left: 10px;
+  position: absolute;
+  right: 3%;
 }
 @media screen and (min-width: 1023px) {
   .menu__elements--plats3 span {
     align-self: center;
     font-size: 20px;
+    transform: translateX(370px);
+    padding-top: 30px;
+    top: inherit;
+    right: inherit;
   }
 }
 .menu__elements--plats3 span::after {
   content: "";
   background-color: #99E2D0;
-  padding: 32px 63px 10px 19px;
+  padding: 50px 35px 20px 27px;
   margin-left: 20px;
 }
 .menu__elements--plats3::after {
@@ -946,19 +1030,33 @@ strong {
   align-self: center;
   font-size: 23px;
   color: white;
-  transform: translateX(207%) rotate(45deg);
+  transform: translateX(207%) rotate(90deg);
   position: absolute;
   left: 87%;
+  transition: transform 600ms ease-in-out;
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats3::after {
+    left: 90%;
+  }
 }
 .menu__elements--plats3 p {
   margin: 0;
   font-family: "Roboto";
   color: gray;
   font-size: 14px;
+  width: 270px;
+  height: 38px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: width 600ms ease-in-out;
 }
 @media screen and (min-width: 1023px) {
   .menu__elements--plats3 p {
     font-size: 18px;
+    height: 47px;
+    width: 350px;
   }
 }
 .menu__elements--plats3 p strong {
@@ -969,6 +1067,25 @@ strong {
 @media screen and (min-width: 1023px) {
   .menu__elements--plats3 p strong {
     font-size: 23px;
+  }
+}
+.menu__elements--plats3:hover::after {
+  transform: translateX(0%) rotate(360deg);
+}
+.menu__elements--plats3:hover span {
+  transform: translateX(11%);
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats3:hover span {
+    transform: translateX(306px);
+  }
+}
+.menu__elements--plats3:hover P {
+  width: 200px;
+}
+@media screen and (min-width: 1023px) {
+  .menu__elements--plats3:hover P {
+    width: 300px;
   }
 }
 .menu__commander {

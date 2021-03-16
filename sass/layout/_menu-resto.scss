@@ -30,7 +30,7 @@
             @include plat;
             transform: translateY(150%);
             opacity: 0;
-            animation: menu 1500ms 200ms both ease-in-out;
+            animation: menu 1500ms 200ms both ease-in-out;    
         }
         &--plats2{
             @include plat;

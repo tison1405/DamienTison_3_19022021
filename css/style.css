@@ -10,6 +10,26 @@
     transform: translateY(0%);
   }
 }
+@keyframes load {
+  75% {
+    transform: scale(1) rotate(360deg);
+  }
+  98% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1) rotate(360deg);
+  }
+}
+@keyframes home {
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @font-face {
   font-family: "Roboto";
   src: url(../font/roboto/Roboto-Regular.ttf);
@@ -1124,6 +1144,38 @@ strong {
     font-size: 24px;
     margin-bottom: 45px;
   }
+}
+
+#home::before {
+  content: "Ohmyfood";
+  font-family: "Shrikhand";
+  position: absolute;
+  top: 45%;
+  opacity: 1;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  font-size: 27px;
+  transform: scale(0) rotate(0deg);
+  animation: load 5s both ease-in-out;
+}
+#home::after {
+  content: "";
+  width: 100%;
+  background-color: #99E2D0;
+  opacity: 1;
+  position: absolute;
+  transform: rotate(360deg);
+  top: 25%;
+  left: 0%;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  animation: load 5s both ease-in-out;
+}
+#home .load {
+  opacity: 0;
+  animation: home 5s both ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */

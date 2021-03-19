@@ -1,0 +1,34 @@
+#home{
+    &::before{
+        content:"Ohmyfood";
+        font-family: 'Shrikhand';
+        position: absolute;
+        top: 45%;
+        opacity: 1;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+        font-size: 27px;
+        transform: scale(0) rotate(0deg);
+        animation: load 5s both ease-in-out;
+        
+    }
+    &::after{
+        content: "";
+        width: 100%;
+        background-color: $color-tertiaire;
+        opacity: 1;
+        position: absolute;
+        transform: rotate(360deg);
+        top: 25%;
+        left: 0%;
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        animation: load 5s both ease-in-out;
+    }
+    .load{
+        opacity: 0;
+        animation: home 5s both ease-in-out;
+    }
+}

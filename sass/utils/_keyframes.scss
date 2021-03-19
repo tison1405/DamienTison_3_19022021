@@ -9,3 +9,24 @@
         transform: translateY(0%);
     }
 }
+@keyframes load{
+    75%{
+        transform: scale(1) rotate(360deg);
+    }
+    98%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+@keyframes home{
+    99%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

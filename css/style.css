@@ -76,6 +76,11 @@ strong {
   margin-right: auto;
   text-align: center;
 }
+@media screen and (min-width: 1023px) {
+  #home .header__titre {
+    font-size: 69px;
+  }
+}
 
 #resto .header {
   display: flex;
@@ -136,11 +141,22 @@ strong {
   text-align: center;
   padding: 28px 0 10px 0;
 }
+@media screen and (min-width: 1023px) {
+  .ex__titre {
+    padding: 28px 0 32px 0;
+    font-size: 35px;
+  }
+}
 .ex__text {
   margin: 0;
   text-align: center;
   font-size: 18px;
-  padding-bottom: 24px;
+  padding-bottom: 110px;
+}
+@media screen and (min-width: 1023px) {
+  .ex__text {
+    padding-bottom: 150px;
+  }
 }
 .ex__link {
   text-decoration: none;
@@ -153,7 +169,9 @@ strong {
   background: linear-gradient(173deg, #FF79DA, #9356DC);
   box-shadow: 2px 2px 7px gray;
   transition: all 600ms;
-  margin-bottom: 45px;
+  position: absolute;
+  top: 40%;
+  z-index: 2;
 }
 .ex__link:hover {
   background: linear-gradient(173deg, #ff93e1, #a16be0);
@@ -272,7 +290,9 @@ strong {
 }
 @media screen and (min-width: 1023px) {
   .resto .resto-selecteur {
-    width: 34%;
+    width: 39%;
+    margin-bottom: 77px;
+    height: 376px;
   }
 }
 .resto .resto-selecteur__img1 {
@@ -748,8 +768,9 @@ strong {
 }
 @media screen and (min-width: 1023px) {
   .menu__elements {
-    padding-left: 3%;
+    padding-left: 1%;
     width: 30%;
+    margin-right: auto;
   }
 }
 .menu__elements--titre {
@@ -803,7 +824,7 @@ strong {
   .menu__elements--plats1 span {
     align-self: center;
     font-size: 20px;
-    transform: translateX(370px);
+    transform: translateX(376px);
     padding-top: 30px;
     top: inherit;
     right: inherit;
@@ -812,7 +833,7 @@ strong {
 .menu__elements--plats1 span::after {
   content: "";
   background-color: #99E2D0;
-  padding: 50px 35px 20px 27px;
+  padding: 50px 40px 20px 27px;
   margin-left: 20px;
 }
 .menu__elements--plats1::after {
@@ -917,7 +938,7 @@ strong {
   .menu__elements--plats2 span {
     align-self: center;
     font-size: 20px;
-    transform: translateX(370px);
+    transform: translateX(376px);
     padding-top: 30px;
     top: inherit;
     right: inherit;
@@ -926,7 +947,7 @@ strong {
 .menu__elements--plats2 span::after {
   content: "";
   background-color: #99E2D0;
-  padding: 50px 35px 20px 27px;
+  padding: 50px 40px 20px 27px;
   margin-left: 20px;
 }
 .menu__elements--plats2::after {
@@ -1031,7 +1052,7 @@ strong {
   .menu__elements--plats3 span {
     align-self: center;
     font-size: 20px;
-    transform: translateX(370px);
+    transform: translateX(376px);
     padding-top: 30px;
     top: inherit;
     right: inherit;
@@ -1040,7 +1061,7 @@ strong {
 .menu__elements--plats3 span::after {
   content: "";
   background-color: #99E2D0;
-  padding: 50px 35px 20px 27px;
+  padding: 50px 40px 20px 27px;
   margin-left: 20px;
 }
 .menu__elements--plats3::after {
@@ -1166,16 +1187,23 @@ strong {
   opacity: 1;
   position: absolute;
   transform: rotate(360deg);
-  top: 25%;
+  top: 27%;
   left: 0%;
   text-align: center;
   padding-top: 150px;
   padding-bottom: 150px;
   animation: load 5s both ease-in-out;
+  z-index: 0;
 }
 #home .load {
   opacity: 0;
   animation: home 5s both ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,16 +7,25 @@
         margin: 0;
         text-align: center;
         padding: 28px 0 10px 0;
+        @include desktop{
+            padding: 28px 0 32px 0;
+            font-size: 35px;
+        }
     }
     &__text{
         margin: 0;
         text-align: center;
         font-size: 18px;
-        padding-bottom: 24px;
+        padding-bottom: 110px;
+        @include desktop{
+            padding-bottom: 150px;
+        }
     }
     &__link{
         @include btn;
-        margin-bottom: 45px;
+        position: absolute;
+        top: 40%;
+        z-index: 2;
         @include desktop{
             width: 245px;
         }

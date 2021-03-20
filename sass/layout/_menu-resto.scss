@@ -11,8 +11,9 @@
         align-content: space-around;
         padding-left: 5%;
         @include desktop{
-            padding-left: 3%;
+            padding-left: 1%;
             width: 30%;
+            margin-right: auto;
         }
         &--titre{
             color: gray;

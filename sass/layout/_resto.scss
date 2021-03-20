@@ -27,7 +27,9 @@
         border-radius: 20px;
         box-shadow: 2px 2px 7px grey;
         @include desktop{
-            width: 34%;
+            width: 39%;
+            margin-bottom: 77px;
+            height: 376px;
         }
         &__img1{
             background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);

@@ -68,6 +68,11 @@
         @content;
     }
 }
+@mixin xl{
+    @media screen and (min-width: 1500px){
+        @content;
+    }
+}
 @mixin plat {
     display: flex;
     flex-direction: row;
@@ -103,6 +108,9 @@
             padding-top: 30px;
             top: inherit;
             right: inherit;
+        }
+        @include xl{
+            transform: translateX(458px);
         }
         &::after{
             content: "";
@@ -161,6 +169,9 @@
              transform: translateX(11%);
              @include desktop{
                  transform: translateX(306px);
+             }
+             @include xl{
+                 transform: translateX(382px);
              }
         }
         P{

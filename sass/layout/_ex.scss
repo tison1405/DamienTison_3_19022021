@@ -29,5 +29,8 @@
         @include desktop{
             width: 245px;
         }
+        @include xl{
+            top: 44%;
+        }
     }
 }

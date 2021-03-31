@@ -16,16 +16,11 @@
         margin: 0;
         text-align: center;
         font-size: 18px;
-        padding-bottom: 110px;
-        @include desktop{
-            padding-bottom: 150px;
-        }
     }
     &__link{
         @include btn;
-        position: absolute;
-        top: 40%;
-        z-index: 2;
+        margin-top: 23px;
+        margin-bottom: 50px;
         @include desktop{
             width: 245px;
         }

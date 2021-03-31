@@ -28,6 +28,10 @@
         margin-bottom: 15px;
         border-radius: 23px;
         box-shadow: 2px 2px 7px gray;
+        transition: background-color 600ms;
+        &:hover{
+            background-color: lighten($color-primaire, 35%);
+        }
         @include desktop{
             width: 24%;
         }

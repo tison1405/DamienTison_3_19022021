@@ -1,17 +1,25 @@
 #home{
+    max-width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+    
     &::before{
         content:"Ohmyfood";
         font-family: 'Shrikhand';
         position: absolute;
         top: 45%;
-        left: 0;
         opacity: 1;
         width: 100%;
         text-align: center;
         z-index: 1;
         font-size: 27px;
         transform: scale(0) rotate(0deg);
-        animation: load 5s both ease-in-out;    
+        animation: load 5s both ease-in-out;
+        max-width: 1250px;
+        @include desktop {
+        top:50%   
+        }
+       
     }
     &::after{
         content: "";
@@ -21,12 +29,13 @@
         position: absolute;
         transform: rotate(360deg);
         top: 27%;
-        left: 0%;
         text-align: center;
         padding-top: 150px;
         padding-bottom: 150px;
         animation: load 5s both ease-in-out;
         z-index: 0;
+        max-width: 1250px;
+       
     }
     .load{
         opacity: 0;
@@ -37,5 +46,13 @@
         right: 0;
         bottom: 0;
         z-index: 2;
+        max-width: 1250px;
+        margin-right: auto;
+        margin-left: auto;
     }  
+}
+#resto{
+    max-width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
 }

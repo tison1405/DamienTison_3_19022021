@@ -113,6 +113,7 @@ strong {
   #resto .header__icon {
     top: 3%;
     font-size: 26px;
+    left: inherit;
   }
 }
 
@@ -184,7 +185,7 @@ strong {
     width: 245px;
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   .ex__link {
     top: 44%;
   }
@@ -832,9 +833,9 @@ strong {
     right: inherit;
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   .menu__elements--plats1 span {
-    transform: translateX(458px);
+    padding-top: 35px;
   }
 }
 .menu__elements--plats1 span::after {
@@ -900,9 +901,9 @@ strong {
     transform: translateX(306px);
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   .menu__elements--plats1:hover span {
-    transform: translateX(382px);
+    transform: translateX(260px);
   }
 }
 .menu__elements--plats1:hover P {
@@ -956,9 +957,9 @@ strong {
     right: inherit;
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   .menu__elements--plats2 span {
-    transform: translateX(458px);
+    padding-top: 35px;
   }
 }
 .menu__elements--plats2 span::after {
@@ -1024,9 +1025,9 @@ strong {
     transform: translateX(306px);
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   .menu__elements--plats2:hover span {
-    transform: translateX(382px);
+    transform: translateX(260px);
   }
 }
 .menu__elements--plats2:hover P {
@@ -1080,9 +1081,9 @@ strong {
     right: inherit;
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   .menu__elements--plats3 span {
-    transform: translateX(458px);
+    padding-top: 35px;
   }
 }
 .menu__elements--plats3 span::after {
@@ -1148,9 +1149,9 @@ strong {
     transform: translateX(306px);
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   .menu__elements--plats3:hover span {
-    transform: translateX(382px);
+    transform: translateX(260px);
   }
 }
 .menu__elements--plats3:hover P {
@@ -1199,12 +1200,16 @@ strong {
   }
 }
 
+#home {
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+}
 #home::before {
   content: "Ohmyfood";
   font-family: "Shrikhand";
   position: absolute;
   top: 45%;
-  left: 0;
   opacity: 1;
   width: 100%;
   text-align: center;
@@ -1212,6 +1217,12 @@ strong {
   font-size: 27px;
   transform: scale(0) rotate(0deg);
   animation: load 5s both ease-in-out;
+  max-width: 1250px;
+}
+@media screen and (min-width: 1023px) {
+  #home::before {
+    top: 50%;
+  }
 }
 #home::after {
   content: "";
@@ -1221,12 +1232,12 @@ strong {
   position: absolute;
   transform: rotate(360deg);
   top: 27%;
-  left: 0%;
   text-align: center;
   padding-top: 150px;
   padding-bottom: 150px;
   animation: load 5s both ease-in-out;
   z-index: 0;
+  max-width: 1250px;
 }
 #home .load {
   opacity: 0;
@@ -1237,6 +1248,15 @@ strong {
   right: 0;
   bottom: 0;
   z-index: 2;
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#resto {
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

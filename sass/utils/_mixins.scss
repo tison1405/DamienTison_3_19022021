@@ -1,14 +1,16 @@
 @mixin btn {
+    font-family: 'Roboto';
     text-decoration: none;
     display: block;
-    padding: 0.8rem;
+    padding: 0.7rem;
     color: white;
-    width: 165px;
+    width: 171px;
     border-radius: 28px;
     text-align: center;
     background: $color-btn;
     box-shadow: 2px 2px 7px gray;
     transition: all 600ms;
+    font-size: 14px;
     &:hover{
         background: $color-btn-lighten;
         box-shadow: 7px 7px 7px gray;
@@ -48,20 +50,25 @@
 @mixin coeur-anim {
     &::before{
         content: "\f004";
-        color: gray;
+        font-weight: bold;
+        background: -webkit-linear-gradient(173deg, $color-secondaire, $color-primaire);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 0;
+        transition: opacity 600ms ease-in-out;
         position: absolute;
     }
-    &::after{
-        content: "\f004";
-        color: white;
-        font-weight: bold;
-        transition: color 800ms ease-out;
-    }
-    &:hover{
         &::after{
-            color: $color-primaire;
-        }   
-    }   
+            content: "\f004";
+            color: gray;
+        }
+    
+    
+    &:hover{
+        &::before{
+            opacity: 1;
+            }
+        } 
 }
 @mixin desktop {
     @media screen and (min-width: 1023px){
@@ -111,6 +118,7 @@
         }
         @include xl{
             padding-top: 35px;
+            transform: translateX(330px);
         }
         &::after{
             content: "";
@@ -178,6 +186,9 @@
             width: 200px;
             @include desktop{
                 width: 300px;
+            }
+            @include xl{
+                width: 260px;
             }
         }
     }

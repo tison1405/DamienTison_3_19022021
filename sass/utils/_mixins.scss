@@ -52,7 +52,7 @@
     &::before{
         content: "\f004";
         font-weight: bold;
-        background: -webkit-linear-gradient(173deg, $color-secondaire, $color-primaire);
+        background: -webkit-linear-gradient(270deg, $color-primaire, $color-secondaire);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         opacity: 0;

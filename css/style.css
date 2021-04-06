@@ -410,7 +410,7 @@ strong {
 .resto .resto-selecteur__name--icones .fa-heart::before {
   content: "";
   font-weight: bold;
-  background: -webkit-linear-gradient(173deg, #FF79DA, #9356DC);
+  background: -webkit-linear-gradient(270deg, #9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
@@ -533,7 +533,7 @@ strong {
 .titre1__button--icon .fa-heart::before {
   content: "";
   font-weight: bold;
-  background: -webkit-linear-gradient(173deg, #FF79DA, #9356DC);
+  background: -webkit-linear-gradient(270deg, #9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
@@ -607,7 +607,7 @@ strong {
 .titre2__button--icon .fa-heart::before {
   content: "";
   font-weight: bold;
-  background: -webkit-linear-gradient(173deg, #FF79DA, #9356DC);
+  background: -webkit-linear-gradient(270deg, #9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
@@ -681,7 +681,7 @@ strong {
 .titre3__button--icon .fa-heart::before {
   content: "";
   font-weight: bold;
-  background: -webkit-linear-gradient(173deg, #FF79DA, #9356DC);
+  background: -webkit-linear-gradient(270deg, #9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
@@ -755,7 +755,7 @@ strong {
 .titre4__button--icon .fa-heart::before {
   content: "";
   font-weight: bold;
-  background: -webkit-linear-gradient(173deg, #FF79DA, #9356DC);
+  background: -webkit-linear-gradient(270deg, #9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
